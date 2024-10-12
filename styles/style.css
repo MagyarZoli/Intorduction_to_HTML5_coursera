@@ -1,0 +1,48 @@
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid yellow;
+    background-color: lightyellow;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.navbar li {
+    float: left;
+    list-style-type: none;
+}
+
+.navbar li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover:not(.active) {
+    color: orange;
+}
+
+.dishes, .desserts {
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+.dishes > .diner, .desserts > .dessert {
+    text-align: left;
+}
+
+li {
+    list-style-type: circle;
+}
+
+li:last-of-type {
+    list-style-type: none;
+}
